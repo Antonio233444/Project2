@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*Базовые стили*/
+@import url("./layout/normalize.css");
+@import url("./layout/base.css");
+/*Стили страницы*/
+@import url("./blocks/header.css");
+@import url("./blocks/commercial.css");
+@import url("./blocks/advantages.css");
+
+/*# sourceMappingURL=style.css.map */
