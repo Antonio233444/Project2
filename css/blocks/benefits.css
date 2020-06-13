@@ -4,7 +4,14 @@
 .benefits__item {
   flex: 1;
   list-style-type: none;
-  margin: 0 5%; }
+  margin: 0 5%;
+  position: relative; }
+  .benefits__item:before {
+    content: url("images/separator.png");
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: translateX(50%); }
   .benefits__item:first-child {
     margin-left: 0; }
   .benefits__item:last-child {

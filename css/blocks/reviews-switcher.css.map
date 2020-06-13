@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACf,OAAO,EAAE,IAAI;;AAIjB,mBAAoB;EACpB,MAAM,EAAE,qBAAqB",
+"sources": ["reviews-switcher.scss"],
+"names": [],
+"file": "reviews-switcher.css"
+}
