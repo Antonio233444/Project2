@@ -1,0 +1,13 @@
+.benefits {
+  display: flex; }
+
+.benefits__item {
+  flex: 1;
+  list-style-type: none;
+  margin: 0 5%; }
+  .benefits__item:first-child {
+    margin-left: 0; }
+  .benefits__item:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=benefits.css.map */
