@@ -1,7 +1,15 @@
 .reviews__switcher {
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  list-style-type: none; }
 
 .interactive-avatar {
   border: 6px solid transparent; }
+  .interactive-avatar--active {
+    border-color: #e01f3d;
+    border-radius: 50%; }
+  .interactive-avatar:hover {
+    border-color: #e01f3d;
+    border-radius: 50%; }
 
 /*# sourceMappingURL=reviews-switcher.css.map */

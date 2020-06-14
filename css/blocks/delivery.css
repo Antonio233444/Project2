@@ -1,3 +1,6 @@
+.form__wrapper {
+  background: url("images/background.png"); }
+
 .delivery__title {
   color: #ffffff;
   font-size: 48px;

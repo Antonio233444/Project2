@@ -6,7 +6,7 @@
   list-style-type: none;
   margin: 0 5%;
   position: relative; }
-  .benefits__item:before {
+  .benefits__item:after {
     content: url("images/separator.png");
     position: absolute;
     top: 30px;

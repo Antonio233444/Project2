@@ -1,8 +1,22 @@
 .reviews__switcher {
     display: flex;
+    justify-content: center;
+    list-style-type: none;
 }
 
 
 .interactive-avatar {
 border: 6px solid transparent;
+
+&--active {
+    border-color: #e01f3d;
+    border-radius: 50%;
 }
+
+&:hover {
+    border-color:  #e01f3d;
+    border-radius: 50%;
+}
+
+}
+

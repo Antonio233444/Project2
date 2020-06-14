@@ -1,3 +1,8 @@
+.form__wrapper {
+    background: url('images/background.png');
+}
+
+
 .delivery__title {
     color: #ffffff;
     font-size: 48px;
@@ -6,11 +11,10 @@
     text-align: center;
 }
 
-
-
 .form {
     display: flex;
 }
+
 
 .form__col {
     flex: 1;
@@ -57,6 +61,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 
 
 .form__title {
