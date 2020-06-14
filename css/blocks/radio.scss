@@ -9,6 +9,11 @@
 
         }
     }
+
+    &:first-child {
+        margin-right: 18px;
+        margin-bottom: 10px;
+    }
 }
 
 .radio__elem {
@@ -43,6 +48,7 @@
 
 
 .radio__title {
+    color: #f8faf9;
     font-size: 18px;
     font-weight: 400;
 }

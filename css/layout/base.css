@@ -15,3 +15,8 @@ body {
   box-sizing: border-box; }
 
 /*# sourceMappingURL=base.css.map */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
