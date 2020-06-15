@@ -8,15 +8,15 @@
 
        .container {
            width: 1101px;
-           margin: 10px auto;
+           margin: 0 auto;
        }
 
-      .color__wrapper {
-          background: #f5f5f5;
-          min-height: 650px;
-          margin-bottom: 113px;
-      }
 
       * {
           box-sizing: border-box;
+      }
+
+      ul {
+          margin: 0;
+          padding: 0;
       }
