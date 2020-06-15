@@ -1,39 +1,30 @@
 .header {
-  margin-bottom: 94px; }
-
-.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
 .nav__list {
-  list-style-type: none;
-  display: flex; }
+  display: flex;
+  list-style-type: none; }
 
 .nav__item {
-  margin-right: 27px; }
-
-.nav__item:last-child {
-  margin-right: 0; }
+  margin-right: 30px; }
+  .nav__item:last child {
+    margin-right: 0; }
 
 .nav__link {
   color: #000000;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
   text-decoration: none; }
 
-.contacts__link {
+.contacts__phone {
   color: #000000;
-  font-size: 21px;
-  font-weight: 400;
-  line-height: 30px;
   text-decoration: none;
   position: relative; }
-
-.contacts__link:before {
-  content: url("../../images/phone.png");
-  position: absolute;
-  right: 160px; }
+  .contacts__phone:before {
+    content: url("../../images/phone.png");
+    position: absolute;
+    left: -15px; }
 
 /*# sourceMappingURL=header.css.map */
