@@ -7,6 +7,7 @@
         .radio__visible {
             border-radius: 0;
             margin-bottom: 40px;
+            
 
         }
     }
@@ -41,6 +42,7 @@
         content:"";
         width: 14px;
         height: 14px;
+        border-radius: 50%;
         background: #e01f3d;
         position: absolute;
         display: none;
@@ -56,3 +58,11 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+.radio__elem--active {
+    width: 14px;
+    height: 14px;
+    background: #e01f3d;
+}
+
+

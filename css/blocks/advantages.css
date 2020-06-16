@@ -2,11 +2,12 @@
   display: flex;
   list-style-type: none;
   align-items: flex-start;
+  margin-bottom: 113px;
   padding-bottom: 36px; }
 
 .advantages__item {
   display: flex;
-  margin-right: 70px; }
+  padding-right: 70px; }
   .advantages__item:last-child {
     margin-right: 0; }
 

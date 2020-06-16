@@ -1,7 +1,8 @@
 .delivery {
   background: url("../../images/background.png");
   min-height: 650px;
-  padding-top: 83px; }
+  padding-top: 83px;
+  height: 100hv; }
 
 .delivery__title {
   color: #ffffff;
