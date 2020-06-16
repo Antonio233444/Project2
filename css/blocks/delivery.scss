@@ -1,6 +1,7 @@
 .delivery {
     background: url('../../images/background.png');
     min-height: 650px;
+    padding-top: 83px;
 }
 
 
@@ -71,5 +72,9 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.form__input-textarea {
+    margin-bottom: 15px;
 }
 

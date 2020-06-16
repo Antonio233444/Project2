@@ -12,4 +12,8 @@
     border-color: #e01f3d;
     border-radius: 50%; }
 
+.interactive-avatar__button {
+  border-radius: 50%;
+  border: none; }
+
 /*# sourceMappingURL=reviews-switcher.css.map */

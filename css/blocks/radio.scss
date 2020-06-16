@@ -6,6 +6,7 @@
     &--checkbox {
         .radio__visible {
             border-radius: 0;
+            margin-bottom: 40px;
 
         }
     }
@@ -24,7 +25,9 @@
             display: block;
         }
     }
+
 }
+
 
 .radio__visible {
     width: 26px;
@@ -32,9 +35,10 @@
     position: relative;
     border-radius: 50%;
     background: #ffffff;
+    margin-right: 10px;
 
-    &:before{
-        content: "";
+    &:before {
+        content:"";
         width: 14px;
         height: 14px;
         background: #e01f3d;
