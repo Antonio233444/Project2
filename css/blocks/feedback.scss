@@ -23,7 +23,17 @@
 
 .reviews__display-inner {
     display: flex;
+
+    &:nth-child(2) {
+        display: none;
+    }
+
+    &:nth-child(3) {
+        display: none;
+    }
+
 }
+
 
 .reviews__avatar {
     width: 254px;

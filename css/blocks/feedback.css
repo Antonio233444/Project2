@@ -18,6 +18,10 @@
 
 .reviews__display-inner {
   display: flex; }
+  .reviews__display-inner:nth-child(2) {
+    display: none; }
+  .reviews__display-inner:nth-child(3) {
+    display: none; }
 
 .reviews__avatar {
   width: 254px;
