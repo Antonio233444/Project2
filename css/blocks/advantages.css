@@ -1,13 +1,14 @@
+.advantages {
+  margin-top: -65px; }
+
 .advantages__list {
   display: flex;
   list-style-type: none;
-  align-items: flex-start;
-  margin-bottom: 113px;
-  padding-bottom: 36px; }
+  align-items: flex-start; }
 
 .advantages__item {
   display: flex;
-  padding-right: 70px; }
+  margin-right: 70px; }
   .advantages__item:last-child {
     margin-right: 0; }
 

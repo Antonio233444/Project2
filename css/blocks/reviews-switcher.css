@@ -4,7 +4,8 @@
   list-style-type: none; }
 
 .interactive-avatar {
-  border: 6px solid transparent; }
+  border: 6px solid transparent;
+  cursor: pointer; }
   .interactive-avatar--active {
     border-color: #e01f3d;
     border-radius: 50%; }
