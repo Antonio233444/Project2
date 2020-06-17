@@ -4,7 +4,12 @@
     min-height: 650px;
     margin-bottom: 113px;
     display: flex;
+    align-content: stretch;
+}
+
+.section__container {
+    display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: space-between;
 }
-
