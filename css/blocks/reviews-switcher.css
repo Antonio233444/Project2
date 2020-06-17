@@ -4,8 +4,7 @@
   list-style-type: none; }
 
 .interactive-avatar {
-  border: 6px solid transparent;
-  cursor: pointer; }
+  border: 6px solid transparent; }
   .interactive-avatar--active {
     border-color: #e01f3d;
     border-radius: 50%; }
@@ -15,6 +14,7 @@
 
 .interactive-avatar__button {
   border-radius: 50%;
-  border: none; }
+  border: none;
+  cursor: pointer; }
 
 /*# sourceMappingURL=reviews-switcher.css.map */

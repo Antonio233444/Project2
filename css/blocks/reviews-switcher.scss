@@ -7,7 +7,6 @@
 
 .interactive-avatar {
 border: 6px solid transparent;
-cursor: pointer;
 
 &--active {
     border-color: #e01f3d;
@@ -24,5 +23,6 @@ cursor: pointer;
 .interactive-avatar__button {
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
 
