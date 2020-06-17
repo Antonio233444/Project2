@@ -1,12 +1,12 @@
 .advantages {
-   
+
 }
 
 
 .advantages__list {
     display: flex;
+    justify-content: flex-start;
     list-style-type: none;
-    align-items: flex-start;
 }
 
 .advantages__item {

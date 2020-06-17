@@ -1,7 +1,11 @@
+html {
+  height: 100%; }
+
 body {
   font-family: 'Play', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%; }
 
 .container {
   width: 1101px;
