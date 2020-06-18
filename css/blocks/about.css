@@ -12,6 +12,9 @@
   display: flex;
   list-style-type: none; }
 
+.socials__link:hover {
+  opacity: 0.6; }
+
 .socials__item {
   margin-right: 12px; }
   .socials__item:last-child {
@@ -23,17 +26,10 @@
   font-weight: 400;
   line-height: 24px; }
 
-.phone__link {
-  color: #000000;
-  font-size: 21px;
-  font-weight: 400;
-  line-height: 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  position: relative; }
-  .phone__link:before {
-    content: url("../../images/phone.png");
-    position: absolute;
-    left: -15px; }
+.map {
+  margin-bottom: 28px; }
+
+.map__image {
+  width: 100%; }
 
 /*# sourceMappingURL=about.css.map */
