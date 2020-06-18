@@ -1,34 +1,20 @@
 .advantages__list {
   display: flex;
+<<<<<<< HEAD
+  justify-content: flex-start;
+=======
   align-items: center;
+>>>>>>> master
   list-style-type: none; }
 
 .advantages__item {
-  color: #000000;
-  font-size: 16px;
-  font-weight: 400;
-  margin-right: 76px;
-  max-width: 100px; }
+  display: flex;
+  margin-right: 70px; }
+  .advantages__item:last-child {
+    margin-right: 0; }
 
-.advantages__item--noise {
-  display: flex; }
-
-.advantages__item--noise:before {
-  content: url("../../images/noise.png");
-  margin-right: 10px; }
-
-.advantages__item--battery {
-  display: flex; }
-
-.advantages__item--battery:before {
-  content: url("../../images/battery.png");
-  margin-right: 10px; }
-
-.advantages__item--plug {
-  display: flex; }
-
-.advantages__item--plug:before {
-  content: url("../../images/plug.png");
-  margin-right: 10px; }
+.advantages__text {
+  width: 100px;
+  padding-left: 14px; }
 
 /*# sourceMappingURL=advantages.css.map */

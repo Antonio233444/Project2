@@ -1,0 +1,26 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: 700;
+  padding-top: 19px;
+  padding-right: 41px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+  background-color: #e01f3d;
+  border-radius: 26px; }
+  .button--theme--red:hover {
+    color: #e01f3d;
+    background-color: #ffffff; }
+  .button--theme--transparent {
+    background: transparent;
+    color: #999999;
+    border: none; }
+  .button--theme--transparent:hover {
+    color: #e01f3d;
+    background-color: #ffffff; }
+
+/*# sourceMappingURL=button.css.map */

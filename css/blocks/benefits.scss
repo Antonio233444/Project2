@@ -1,0 +1,30 @@
+.benefits {
+    display: flex;
+}
+
+.benefits__item {
+    flex: 1;
+    list-style-type: none;
+    padding: 0 5%;
+    position: relative;
+
+    &:after {
+        content: url("../../images/separator.png");
+        position: absolute;
+        top: 30px;
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:last-child {
+        padding-right: 0;
+
+    &:after {
+        display: none;
+    }
+    }
+}
