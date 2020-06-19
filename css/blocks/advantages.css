@@ -1,16 +1,18 @@
 .advantages__list {
   display: flex;
   justify-content: flex-start;
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 .advantages__item {
   display: flex;
-  margin-right: 70px; }
-  .advantages__item:last-child {
-    margin-right: 0; }
+  margin-right: 70px;
+}
+.advantages__item:last-child {
+  margin-right: 0;
+}
 
 .advantages__text {
   width: 100px;
-  padding-left: 14px; }
-
-/*# sourceMappingURL=advantages.css.map */
+  padding-left: 14px;
+}

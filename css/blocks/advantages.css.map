@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,iBAAkB;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,UAAU;EAC3B,eAAe,EAAE,IAAI;;AAGzB,iBAAkB;EACd,OAAO,EAAE,IAAI;EACb,YAAY,EAAE,IAAI;EAElB,4BAAa;IACT,YAAY,EAAE,CAAC;;AAMvB,iBAAkB;EACd,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI",
-"sources": ["advantages.scss"],
-"names": [],
-"file": "advantages.css"
-}
