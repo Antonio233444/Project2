@@ -2,6 +2,7 @@
 /*Базовые стили*/
 @import url("./layout/normalize.css");
 @import url("./layout/base.css");
+@import url("./layout/media.css");
 /*Стили страницы*/
 @import url("./blocks/header.css");
 @import url("./blocks/headphones.css");
@@ -17,6 +18,5 @@
 @import url("./blocks/headline.css");
 @import url("./blocks/reviews-switcher.css");
 @import url("./blocks/about.css");
-@import url("./blocks/media.css");
 
 /*# sourceMappingURL=style.css.map */
