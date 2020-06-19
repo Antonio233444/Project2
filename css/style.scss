@@ -1,22 +1,22 @@
 /*Базовые стили*/
 
-@import "layout/normalize.css";
-@import "layout/base.css";
-@import "layout/media.css";
+@import "layout/normalize.scss";
+@import "layout/base.scss";
+@import "layout/media.scss";
 
 
 /*Стили страницы*/
-@import "blocks/header.css";
-@import "blocks/headphones.css";
-@import "blocks/button.css";
-@import "blocks/advantages.css";
-@import "blocks/description.css";
-@import "blocks/section.css";
-@import "blocks/feedback.css";
-@import "blocks/delivery.css";
-@import "blocks/radio.css";
-@import "blocks/benefits.css";
-@import "blocks/benefit.css";
-@import "blocks/headline.css";
-@import "blocks/reviews-switcher.css";
-@import "blocks/about.css";
+@import "blocks/header.scss";
+@import "blocks/headphones.scss";
+@import "blocks/button.scss";
+@import "blocks/advantages.scss";
+@import "blocks/description.scss";
+@import "blocks/section.scss";
+@import "blocks/feedback.scss";
+@import "blocks/delivery.scss";
+@import "blocks/radio.scss";
+@import "blocks/benefits.scss";
+@import "blocks/benefit.scss";
+@import "blocks/headline.scss";
+@import "blocks/reviews-switcher.scss";
+@import "blocks/about.scss";
