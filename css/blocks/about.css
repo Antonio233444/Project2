@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-between;
   padding-left: 78px;
-  padding-right: 81px; }
+  padding-right: 81px;
+  padding-bottom: 30px; }
 
 .socials {
   display: flex;

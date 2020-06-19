@@ -1,0 +1,5 @@
+@function rem($px) {
+    @return $px / $baseFontSize + 0rem;
+}
+
+/*18px - базовый размер шрифта*/
