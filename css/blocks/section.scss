@@ -1,8 +1,8 @@
 .section {
     background: #f5f5f5;
     height: 100vh;
-    min-height: 650px;
-    margin-bottom: 113px;
+    min-height: rem(650px);
+    margin-bottom: rem(113px);
     display: flex;
     align-content: stretch;
 }
@@ -12,6 +12,6 @@
     height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 30px;
+    padding-bottom: rem(30px);
     
 }
