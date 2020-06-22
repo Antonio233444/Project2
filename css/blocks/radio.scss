@@ -13,8 +13,8 @@
     }
 
     &:first-child {
-        margin-right: 18px;
-        margin-bottom: 10px;
+        margin-right: rem(18px);
+        margin-bottom: rem(10px);
     }
 }
 

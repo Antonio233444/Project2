@@ -15,8 +15,8 @@
     &:before {
         content: "";
         display: block;
-        width: 90px;
-        height: 90px;
+        width: rem(90px);
+        height: rem(90px);
         background: #ffffff;
         border-radius: 50%;
         position: absolute;
@@ -53,7 +53,7 @@
 
 .reviews__content {
     flex: 1;
-    margin-left: 20px;
+    margin-left: rem(20px);
 }
 
 .feedback {

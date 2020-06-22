@@ -42,4 +42,10 @@
     }
 }
 
+.contacts__phone.header__contacts__phone {
+    @include tablets {
+        display: none;
+    }
+}
+
 
