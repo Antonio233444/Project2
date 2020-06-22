@@ -405,7 +405,7 @@ ul {
   position: relative;
 }
 .contacts__phone:before {
-  content: url("../../images/phone.png");
+  content: url("../images/phone.png");
   position: absolute;
   left: -15px;
 }
@@ -589,7 +589,7 @@ ul {
 }
 
 .delivery {
-  background: url("../../images/background.png");
+  background: url("../images/background.png");
   min-height: 650px;
   padding-top: 20px;
   height: 100vh;
@@ -725,7 +725,7 @@ ul {
   position: relative;
 }
 .benefits__item:after {
-  content: url("../../images/separator.png");
+  content: url("../images/separator.png");
   position: absolute;
   top: 30px;
   right: 0;
