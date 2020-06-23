@@ -2,7 +2,7 @@
         height: 100%;
 
         @include tablets {
-            font-size: 17px; /*18px - 1px*/
+            font-size: 17px; //18px - 1px
         }
 
         @include phones {
@@ -36,15 +36,10 @@
       }
 
 
-      /*breakpoints*/
+
+   //breakpoints
 
 
-      $tablets: 768px;
-      $phones: 480px;
-
-      .nav {
-          @include tablets {
-              display: none;
-          }
-      }
+   $tablets: 768px;
+   $phones: 480px;
 

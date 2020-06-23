@@ -9,10 +9,13 @@
 .nav__list {
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .nav__item {
     margin-right: rem(30px);
+    margin-bottom: 10px;
 
     &:last child {
         margin-right: 0;
@@ -24,6 +27,7 @@
     font-size: rem(16px);
     font-weight: 400;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .contacts__phone {
@@ -34,11 +38,13 @@
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
+    white-space: nowrap;
     
     &:before {
         content: url('../images/phone.png');
         position: absolute;
         left: -15px;
+        flex-shrink: 0;
     }
 }
 
@@ -47,5 +53,17 @@
         display: none;
     }
 }
+
+.nav {
+
+    margin: 0 30;
+    padding-top: 5px;
+
+
+    @include tablets {
+        display: none;
+    }
+}
+
 
 

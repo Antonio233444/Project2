@@ -1,12 +1,13 @@
 /*Базовые стили*/
 
 @import "layout/normalize.scss";
-@import "layout/base.scss";
 @import "layout/media.scss";
+@import "layout/base.scss";
 
 
 /*Стили страницы*/
 @import "blocks/header.scss";
+@import "blocks/hamburger.scss";
 @import "blocks/headphones.scss";
 @import "blocks/button.scss";
 @import "blocks/advantages.scss";

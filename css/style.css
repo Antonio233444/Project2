@@ -343,6 +343,16 @@ template {
 html {
   height: 100%;
 }
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
 
 body {
   font-family: "Play", sans-serif;
@@ -366,7 +376,6 @@ ul {
   padding: 0;
 }
 
-/*18px - базовый размер шрифта*/
 /*Стили страницы*/
 .header {
   display: flex;
@@ -379,10 +388,13 @@ ul {
 .nav__list {
   display: flex;
   list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav__item {
   margin-right: 1.6666666667rem;
+  margin-bottom: 10px;
 }
 .nav__item:last child {
   margin-right: 0;
@@ -393,6 +405,7 @@ ul {
   font-size: 0.8888888889rem;
   font-weight: 400;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .contacts__phone {
@@ -403,17 +416,67 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
+  white-space: nowrap;
 }
 .contacts__phone:before {
   content: url("../images/phone.png");
   position: absolute;
   left: -15px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__phone.header__contacts__phone {
+    display: none;
+  }
+}
+
+.nav {
+  margin: 0 30;
+  padding-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+.hamburger {
+  width: 24px;
+  height: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: inline-flex;
+  }
+}
+
+.hamburger__plank {
+  display: block;
+  background: #000000;
+  height: 4px;
+  border-radius: 10px;
 }
 
 .headphones {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .headphones {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 .headphones__title {
@@ -451,7 +514,7 @@ ul {
   padding-bottom: 1rem;
   padding-left: 2.2222222222rem;
   background-color: #e01f3d;
-  border-radius: 26px;
+  border-radius: 1.4444444444rem;
 }
 .button--theme--red:hover {
   color: #e01f3d;
@@ -465,6 +528,12 @@ ul {
 .button--theme--transparent:hover {
   color: #e01f3d;
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    display: none;
+  }
 }
 
 .advantages__list {
@@ -523,8 +592,8 @@ ul {
 .reviews__display:before {
   content: "";
   display: block;
-  width: 90px;
-  height: 90px;
+  width: 5rem;
+  height: 5rem;
   background: #ffffff;
   border-radius: 50%;
   position: absolute;
@@ -556,7 +625,7 @@ ul {
 
 .reviews__content {
   flex: 1;
-  margin-left: 20px;
+  margin-left: 1.1111111111rem;
 }
 
 .feedback {
@@ -670,8 +739,8 @@ ul {
   margin-bottom: 2.2222222222rem;
 }
 .radio:first-child {
-  margin-right: 18px;
-  margin-bottom: 10px;
+  margin-right: 1rem;
+  margin-bottom: 0.5555555556rem;
 }
 
 .radio__elem {

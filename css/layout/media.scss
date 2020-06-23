@@ -2,7 +2,7 @@
     @return $px / 18px + 0rem;
 }
 
-/*18px - базовый размер шрифта*/
+//18- базовый размер шрифта
 
 
 @mixin tablets {
@@ -16,3 +16,9 @@
         @content;
     }
 }
+
+   //breakpoints
+
+
+   $tablets: 768px;
+   $phones: 480px;
