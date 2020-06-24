@@ -21,6 +21,10 @@
     font-weight: 700;
     text-transform: uppercase;
     width: rem(500px);
+
+    @include tablets {
+        font-size: rem(30px); //меняется размер шрифта при уменьшении разрешения экрана
+    }
 }
 
 .headphones__description {
