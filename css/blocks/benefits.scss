@@ -5,6 +5,7 @@
         flex-direction: column;
         justify-content: center;
     }
+
 }
 
 .benefits__item {
@@ -19,10 +20,15 @@
         top: rem(30px);
         right: 0;
         transform: translateX(50%);
+
+        @include tablets {
+            display: none;
+            padding: 0;
+        }
     }
 
     &:first-child {
-        padding-left: 0;
+        padding-left: 22px;
     }
 
     &:last-child {
@@ -32,4 +38,35 @@
         display: none;
     }
     }
+
+
+        @include phones {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+}
+
+
+.benefit__image-wrapper {
+
+    position: relative;
+}
+
+.battery-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.sound-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.time-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
 }

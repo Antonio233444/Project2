@@ -79,6 +79,7 @@
     text-transform: uppercase;
     margin-bottom: rem(30px);
     text-align: center;
+
 }
 
 .reviews__text {
@@ -95,4 +96,22 @@
     color: #000000;
     font-size: rem(18px);
     font-weight: 700;
+
+    @include tablets {
+        text-align: center;
+    }
+
+    @include phones {
+        text-align: center;
+    }
+}
+
+.reviews__title {
+    @include tablets {
+        text-align: center;
+    }
+
+    @include phones {
+        text-align: center;
+    }
 }

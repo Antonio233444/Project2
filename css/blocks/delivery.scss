@@ -18,7 +18,12 @@
     display: flex;
 
     @include tablets {
+        padding: 0 15%;
+        margin-right: 0;
         flex-direction: column;
+    }
+    @include phones {
+        padding: 0;
     }
 }
 
@@ -72,6 +77,17 @@
     display: flex;
     flex-wrap: wrap;
 
+    @include phones {
+        justify-content: center;
+    }
+}
+
+.form__buttons {
+    @include tablets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 

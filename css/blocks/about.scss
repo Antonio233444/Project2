@@ -9,7 +9,13 @@
     padding-left: rem(78px);
     padding-right: rem(81px);
     padding-bottom: rem(30px);
+    
+    @include phones {
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
 
 .socials {
     display: flex;
