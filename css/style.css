@@ -818,7 +818,7 @@ ul {
 .form__input {
   width: 100%;
   border: none;
-  padding: 1rem 0.6111111111rem;
+  padding: 0.2777777778rem 0.4444444444rem;
   border: 3px solid transparent;
 }
 .form__input-textarea {
@@ -857,6 +857,12 @@ ul {
 
 .form__input-textarea {
   margin-bottom: 0.8333333333rem;
+}
+
+@media screen and (max-width: 480px) {
+  .form__input-textarea {
+    height: 5rem;
+  }
 }
 
 .radio {
@@ -1115,10 +1121,11 @@ ul {
 .about {
   height: 100vh;
   min-height: 36.1111111111rem;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 768px) {
   .about {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -1162,7 +1169,6 @@ ul {
 }
 
 .map {
-  display: flex;
   flex: 1;
 }
 

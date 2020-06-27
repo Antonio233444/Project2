@@ -71,7 +71,7 @@
 .form__input {
     width: 100%;
     border: none;
-    padding: rem(18px) rem(11px);
+    padding: rem(5px) rem(8px);
     border: 3px solid transparent;
 
     &-textarea {
@@ -116,3 +116,10 @@
     margin-bottom: rem(15px);
 }
 
+
+
+.form__input-textarea {
+    @include phones {
+        height: rem(90px);
+    }
+}
