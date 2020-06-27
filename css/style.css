@@ -1174,6 +1174,8 @@ ul {
 
 .map__image {
   width: 100%;
-  object-fit: cover;
-  height: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 100%;
 }
