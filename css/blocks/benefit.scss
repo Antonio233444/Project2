@@ -20,3 +20,29 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.benefit__image {
+    @include phones {
+        margin-right: rem(30px);
+    }
+}
+
+.benefit__text h3 {
+    color: #000000;
+    font-size: rem(24px);
+    font-weight: 700;
+
+    @include phones {
+        text-align: left;
+    }
+}
+
+.benefit__text p {
+    color: #666666;
+    font-size: rem(16px);
+    font-weight: 400;
+
+    @include phones {
+        text-align: left;
+    }
+}

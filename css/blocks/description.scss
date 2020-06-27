@@ -1,4 +1,16 @@
 .description {
     height: 100vh;
     min-height: rem(650px);
+
+    @include tablets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include phones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

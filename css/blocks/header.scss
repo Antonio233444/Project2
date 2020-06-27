@@ -28,6 +28,10 @@
     font-weight: 400;
     text-decoration: none;
     white-space: nowrap;
+
+    &:hover {
+        opacity: 0.6;
+    }
 }
 
 .contacts__phone {

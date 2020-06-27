@@ -3,6 +3,19 @@
     min-height: rem(650px);
     padding-top: rem(20px);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include tablets {
+        justify-content: center;
+        align-items: center;
+    }
+
+    @include phones {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 

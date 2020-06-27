@@ -4,9 +4,11 @@
     @include phones {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
 }
+
 
 .benefits__item {
     flex: 1;
@@ -25,10 +27,14 @@
             display: none;
             padding: 0;
         }
+
+        @include phones {
+            margin-bottom: 40px;
+        }
     }
 
     &:first-child {
-        padding-left: 22px;
+        padding-left: rem(22px);
     }
 
     &:last-child {
@@ -38,14 +44,28 @@
         display: none;
     }
     }
-
-
         @include phones {
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
 }
+
+
+.benefits__item {
+    @include phones {
+        margin-bottom: 40px;
+    }
+
+    &:last-child {
+        @include phones {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
 
 
 .benefit__image-wrapper {
@@ -57,16 +77,31 @@
     position: absolute;
     top: 25%;
     left: 25%;
+
+    @include tablets {
+    top: 10%;
+    left: 15%;
+    }
 }
 
 .sound-icon {
     position: absolute;
     top: 25%;
     left: 25%;
+
+    @include tablets {
+        top: 15%;
+        left: 15%;
+    }
 }
 
 .time-icon {
     position: absolute;
     top: 25%;
     left: 25%;
+
+    @include tablets {
+        top: 13%;
+        left: 15%;
+    }
 }

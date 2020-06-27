@@ -16,8 +16,10 @@
 
 .headphones__about {
     @include tablets {
+        display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -43,14 +45,10 @@
     margin-bottom: rem(42px);
 
     @include tablets {
-        width: rem(486px);
+        width: rem(330px);
     }
 }
 
-.headphones__col {
-    display: flex;
-    align-self: flex-start;
- }
 
  .headphones__picture {
      @include tablets {
