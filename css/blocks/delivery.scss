@@ -1,4 +1,4 @@
-.delivery__section {
+.delivery {
     background: url('../images/background.png');
     background-size: cover;
     background-position: 0 85%;
@@ -9,10 +9,12 @@
     @include tablets {
         justify-content: center;
         align-items: center;
+        background-position: center bottom;
     }
 
     @include phones {
         justify-content: center;
+        background-position: 40% 20%;
     }
 }
 
