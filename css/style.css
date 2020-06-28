@@ -381,11 +381,6 @@ ul {
   padding: 0;
 }
 
-li {
-  margin: 0;
-  padding: 0;
-}
-
 /*Стили страницы*/
 .header {
   display: flex;
@@ -589,10 +584,6 @@ li {
   padding-left: 0.7777777778rem;
 }
 
-.description__section {
-  height: 100vh;
-  min-height: 36.1111111111rem;
-}
 @media screen and (max-width: 768px) {
   .description__section {
     display: flex;
@@ -607,10 +598,8 @@ li {
   }
 }
 
-.section {
+.section__headphones {
   background: #f5f5f5;
-  height: 100vh;
-  min-height: 36.1111111111rem;
   display: flex;
   align-content: stretch;
 }
@@ -623,10 +612,6 @@ li {
   padding-bottom: 1.6666666667rem;
 }
 
-.feedback__section {
-  height: 100vh;
-  min-height: 650px;
-}
 @media screen and (max-width: 768px) {
   .feedback__section {
     display: flex;
@@ -752,8 +737,6 @@ li {
 }
 
 .delivery__section {
-  height: 100vh;
-  min-height: 36.1111111111rem;
   background: url("../images/background.png");
   background-size: cover;
   background-position: 0 85%;
@@ -1132,8 +1115,6 @@ li {
 }
 
 .about__section {
-  height: 100vh;
-  min-height: 36.1111111111rem;
   display: flex;
   flex-direction: column;
 }
