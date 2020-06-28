@@ -1,8 +1,9 @@
-.delivery {
-    background: url('../images/background.png');
-    min-height: rem(650px);
-    padding-top: rem(20px);
+.delivery__section {
     height: 100vh;
+    min-height: 650px;
+    background: url('../images/background.png');
+    background-size: cover;
+    background-position: 0 85%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +15,6 @@
 
     @include phones {
         justify-content: center;
-        align-items: center;
     }
 }
 
@@ -91,7 +91,7 @@
     flex-wrap: wrap;
 
     @include phones {
-        justify-content: center;
+        padding-left: 35px;
     }
 }
 

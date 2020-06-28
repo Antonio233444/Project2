@@ -1,6 +1,6 @@
-.about {
+.about__section {
     height: 100vh;
-    min-height: rem(650px);
+    min-height: 650px;
     display: flex;
     flex-direction: column;
 
@@ -29,8 +29,36 @@
     list-style-type: none;
 }
 
-.telegram-icon:hover {
-    fill: #000000;
+.telegram-icon {
+    fill: #b2b2b2;
+
+    &:hover {
+        fill: #000000;
+    }
+}
+
+.vk-icon {
+    fill: #b2b2b2;
+
+    &:hover {
+        fill: #000000;
+    }
+}
+
+.facebook-icon {
+    fill: #b2b2b2;
+
+    &:hover {
+        fill: #000000;
+    }
+}
+
+.instagram-icon {
+    fill: #b2b2b2;
+
+    &:hover {
+        fill: #000000;
+    }
 }
 
 
