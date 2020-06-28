@@ -748,13 +748,13 @@ ul {
   .delivery {
     justify-content: center;
     align-items: center;
-    background-position: center bottom;
+    background-position: 30% 50%;
   }
 }
 @media screen and (max-width: 480px) {
   .delivery {
     justify-content: center;
-    background-position: 40% 20%;
+    background-position: 60% -60%;
   }
 }
 

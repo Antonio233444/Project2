@@ -9,12 +9,12 @@
     @include tablets {
         justify-content: center;
         align-items: center;
-        background-position: center bottom;
+        background-position: 30% 50%;
     }
 
     @include phones {
         justify-content: center;
-        background-position: 40% 20%;
+        background-position: 60% -60%;
     }
 }
 
