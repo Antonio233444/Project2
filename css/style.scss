@@ -1,20 +1,23 @@
 /*Базовые стили*/
 
-@import url('./layout/normalize.css');
-@import url('./layout/base.css');
+@import "layout/normalize.scss";
+@import "layout/media.scss";
+@import "layout/base.scss";
 
 
 /*Стили страницы*/
-@import url('./blocks/header.css');
-@import url('./blocks/headphones.css');
-@import url('./blocks/button.css');
-@import url('./blocks/advantages.css');
-@import url('./blocks/description.css');
-@import url('./blocks/section.css');
-@import url('./blocks/feedback.css');
-@import url('./blocks/delivery.css');
-@import url('./blocks/radio.css');
-@import url('./blocks/benefits.css');
-@import url('./blocks/benefit.css');
-@import url('./blocks/headline.css');
-@import url('./blocks/reviews-switcher.css');
+@import "blocks/header.scss";
+@import "blocks/hamburger.scss";
+@import "blocks/headphones.scss";
+@import "blocks/button.scss";
+@import "blocks/advantages.scss";
+@import "blocks/description.scss";
+@import "blocks/section.scss";
+@import "blocks/feedback.scss";
+@import "blocks/delivery.scss";
+@import "blocks/radio.scss";
+@import "blocks/benefits.scss";
+@import "blocks/benefit.scss";
+@import "blocks/headline.scss";
+@import "blocks/reviews-switcher.scss";
+@import "blocks/about.scss";

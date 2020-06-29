@@ -1,22 +1,26 @@
 .benefits {
-  display: flex; }
+  display: flex;
+}
 
 .benefits__item {
   flex: 1;
   list-style-type: none;
   padding: 0 5%;
-  position: relative; }
-  .benefits__item:after {
-    content: url("../../images/separator.png");
-    position: absolute;
-    top: 30px;
-    right: 0;
-    transform: translateX(50%); }
-  .benefits__item:first-child {
-    padding-left: 0; }
-  .benefits__item:last-child {
-    padding-right: 0; }
-    .benefits__item:last-child:after {
-      display: none; }
-
-/*# sourceMappingURL=benefits.css.map */
+  position: relative;
+}
+.benefits__item:after {
+  content: url("../../images/separator.png");
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: translateX(50%);
+}
+.benefits__item:first-child {
+  padding-left: 0;
+}
+.benefits__item:last-child {
+  padding-right: 0;
+}
+.benefits__item:last-child:after {
+  display: none;
+}

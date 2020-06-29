@@ -1,0 +1,24 @@
+@function rem($px) {
+    @return $px / 18px + 0rem;
+}
+
+//18- базовый размер шрифта
+
+
+@mixin tablets {
+    @media screen and (max-width: $tablets) {
+        @content;
+    }
+}
+
+@mixin phones {
+    @media screen and (max-width: $phones) {
+        @content;
+    }
+}
+
+   //breakpoints
+
+
+   $tablets: 768px;
+   $phones: 480px;

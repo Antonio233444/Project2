@@ -1,12 +1,7 @@
 .advantages {
-
-<<<<<<< HEAD
-=======
-.advantages__list {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
->>>>>>> master
+    @include tablets {
+        display: none;
+    }
 }
 
 
@@ -18,7 +13,7 @@
 
 .advantages__item {
     display: flex;
-    margin-right: 70px;
+    margin-right: rem(70px);
 
     &:last-child {
         margin-right: 0;
@@ -28,6 +23,6 @@
 
 
 .advantages__text {
-    width: 100px;
-    padding-left: 14px;
+    width: rem(100px);
+    padding-left: rem(14px);
 }

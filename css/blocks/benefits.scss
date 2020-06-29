@@ -1,6 +1,14 @@
 .benefits {
     display: flex;
+
+    @include phones {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
+
 
 .benefits__item {
     flex: 1;
@@ -9,15 +17,24 @@
     position: relative;
 
     &:after {
-        content: url("../../images/separator.png");
+        content: url("../images/separator.png");
         position: absolute;
-        top: 30px;
+        top: rem(30px);
         right: 0;
         transform: translateX(50%);
+
+        @include tablets {
+            display: none;
+            padding: 0;
+        }
+
+        @include phones {
+            margin-bottom: 40px;
+        }
     }
 
     &:first-child {
-        padding-left: 0;
+        padding-left: rem(22px);
     }
 
     &:last-child {
@@ -26,5 +43,65 @@
     &:after {
         display: none;
     }
+    }
+        @include phones {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+}
+
+
+.benefits__item {
+    @include phones {
+        margin-bottom: 40px;
+    }
+
+    &:last-child {
+        @include phones {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
+
+
+.benefit__image-wrapper {
+
+    position: relative;
+}
+
+.battery-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    @include tablets {
+    top: 10%;
+    left: 15%;
+    }
+}
+
+.sound-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    @include tablets {
+        top: 15%;
+        left: 15%;
+    }
+}
+
+.time-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    @include tablets {
+        top: 13%;
+        left: 15%;
     }
 }
