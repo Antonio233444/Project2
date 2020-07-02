@@ -7,6 +7,21 @@
     justify-content: space-between;
 }
 
+.feature__image-wrapper {
+width: rem(90px);
+height: rem(90px);
+background-color: #6e6e6e;
+border-radius: 5%;
+position: relative;
+
+}
+
+.gear-icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
 .about__list {
     display: flex;
     list-style-type: none;
@@ -48,6 +63,11 @@
 
 .feature__option-price {
     margin-right: rem(26px);
+    color: #0d0d0d;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: uppercase;
 }
 
 .feature__option-button {

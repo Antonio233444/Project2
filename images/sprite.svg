@@ -155,7 +155,7 @@
 </symbol>
 
 
-<symbol id="gear"   x="0px" y="0px" viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;">
+<symbol id="gear" fill = "#ffffff"  x="0px" y="0px" viewBox="0 0 54 54" style="enable-background:new 0 0 54 54;">
 <g>
 	<path d="M27,13c-7.72,0-14,6.28-14,14s6.28,14,14,14s14-6.28,14-14S34.72,13,27,13z M27,39c-6.617,0-12-5.383-12-12s5.383-12,12-12
 		s12,5.383,12,12S33.617,39,27,39z"/>

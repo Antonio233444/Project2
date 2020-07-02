@@ -607,6 +607,20 @@ ul {
   justify-content: space-between;
 }
 
+.feature__image-wrapper {
+  width: 5rem;
+  height: 5rem;
+  background-color: #6e6e6e;
+  border-radius: 5%;
+  position: relative;
+}
+
+.gear-icon {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
 .about__list {
   display: flex;
   list-style-type: none;
@@ -648,6 +662,11 @@ ul {
 
 .feature__option-price {
   margin-right: 1.4444444444rem;
+  color: #0d0d0d;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 60px;
+  text-transform: uppercase;
 }
 
 .feature__option-button {
