@@ -381,6 +381,11 @@ ul {
   padding: 0;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 /*Стили страницы*/
 .header {
   display: flex;
@@ -605,6 +610,11 @@ ul {
 .feature__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.feature__col {
+  width: 45%;
 }
 
 .feature__image-wrapper {
@@ -612,13 +622,10 @@ ul {
   height: 5rem;
   background-color: #6e6e6e;
   border-radius: 5%;
-  position: relative;
-}
-
-.gear-icon {
-  position: absolute;
-  top: 25%;
-  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 66px;
 }
 
 .about__list {
@@ -644,6 +651,7 @@ ul {
 
 .feature__option {
   display: flex;
+  align-items: center;
 }
 
 .feature__title {
@@ -657,32 +665,15 @@ ul {
   color: #666666;
   font-size: 0.8888888889rem;
   font-weight: 400;
-  width: 17.2777777778rem;
 }
 
 .feature__option-price {
   margin-right: 1.4444444444rem;
   color: #0d0d0d;
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 60px;
+  line-height: 3.3333333333rem;
   text-transform: uppercase;
-}
-
-.feature__option-button {
-  text-decoration: none;
-  display: block;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-size: 0.8888888889rem;
-  font-weight: 700;
-  text-transform: 700;
-  padding-top: 1.0555555556rem;
-  padding-right: 2.2777777778rem;
-  padding-bottom: 1rem;
-  padding-left: 2.2222222222rem;
-  background-color: #e01f3d;
-  border-radius: 1.4444444444rem;
 }
 
 .headphone {

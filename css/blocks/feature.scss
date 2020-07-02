@@ -5,6 +5,11 @@
 .feature__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.feature__col {
+    width: 45%;
 }
 
 .feature__image-wrapper {
@@ -12,15 +17,13 @@ width: rem(90px);
 height: rem(90px);
 background-color: #6e6e6e;
 border-radius: 5%;
-position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 66px;
 
 }
 
-.gear-icon {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-}
 
 .about__list {
     display: flex;
@@ -45,6 +48,7 @@ position: relative;
 
 .feature__option {
     display: flex;
+    align-items: center;
 }
 
 .feature__title {
@@ -58,31 +62,15 @@ position: relative;
     color: #666666;
     font-size: rem(16px);
     font-weight: 400;
-    width: rem(311px);
+
 }
 
 .feature__option-price {
     margin-right: rem(26px);
     color: #0d0d0d;
-    font-size: 36px;
+    font-size: rem(36px);
     font-weight: 400;
-    line-height: 60px;
+    line-height: rem(60px);
     text-transform: uppercase;
 }
 
-.feature__option-button {
-    text-decoration: none;
-    display: block;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-size: rem(16px);
-    font-weight: 700;
-    text-transform: 700;
-    padding-top: rem(19px);
-    padding-right: rem(41px);
-    padding-bottom: rem(18px);
-    padding-left: rem(40px);
-    background-color: #e01f3d;
-    border-radius: rem(26px);
-
-}
