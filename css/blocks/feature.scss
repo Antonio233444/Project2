@@ -74,3 +74,11 @@ margin-top: 66px;
     text-transform: uppercase;
 }
 
+
+.arrow {
+    display: flex;
+}
+
+.arrow__switcher-right {
+    transform: rotate(180deg);
+}

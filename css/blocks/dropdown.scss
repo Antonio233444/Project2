@@ -1,0 +1,22 @@
+.dropdown__menu {
+    display: none;
+}
+
+.charasteristics__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.charasteristics__item {
+    display: flex;
+    align-items: center;
+}
+
+.charasteristics__image {
+    margin-right: rem(29px);
+}
+
+.charasteristics__title {
+    margin-right: rem(67px);
+    
+}

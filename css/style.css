@@ -676,6 +676,36 @@ p {
   text-transform: uppercase;
 }
 
+.arrow {
+  display: flex;
+}
+
+.arrow__switcher-right {
+  transform: rotate(180deg);
+}
+
+.dropdown__menu {
+  display: none;
+}
+
+.charasteristics__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.charasteristics__item {
+  display: flex;
+  align-items: center;
+}
+
+.charasteristics__image {
+  margin-right: 1.6111111111rem;
+}
+
+.charasteristics__title {
+  margin-right: 3.7222222222rem;
+}
+
 .headphone {
   background: #f5f5f5;
   display: flex;
