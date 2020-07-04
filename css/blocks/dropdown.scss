@@ -1,10 +1,18 @@
 .dropdown__menu {
-    display: none;
+    position: absolute;
+    top: rem(0px);
+    left: rem(80px);
+    background-color: #ffffff;
+    width: rem(270px);
+    min-height: rem(281px);
+    visibility: hidden;
 }
 
 .charasteristics__list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .charasteristics__item {
@@ -17,6 +25,23 @@
 }
 
 .charasteristics__title {
+    color: #000000;
+    font-size: rem(16px);
+    font-weight: 400;
+    line-height: 24px;
     margin-right: rem(67px);
-    
+}
+
+.charasteristics__desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: rem(16px);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.feature__image:hover .dropdown__menu {
+    visibility: visible;
 }
