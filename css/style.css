@@ -691,45 +691,42 @@ p {
 .dropdown__menu {
   position: absolute;
   top: 0rem;
-  left: 4.4444444444rem;
+  left: 5rem;
   background-color: #ffffff;
-  width: 15rem;
+  min-width: 15rem;
   min-height: 15.6111111111rem;
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 .charasteristics__list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .charasteristics__item {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.charasteristics__image {
-  margin-right: 1.6111111111rem;
-}
-
+/*.charasteristics__image {
+    margin-right: rem(29px);
+}*/
 .charasteristics__title {
   color: #000000;
   font-size: 0.8888888889rem;
   font-weight: 400;
   line-height: 24px;
-  margin-right: 3.7222222222rem;
 }
 
 .charasteristics__desc {
   display: flex;
   justify-content: center;
-  align-items: center;
   color: #000000;
   font-size: 0.8888888889rem;
   font-weight: 400;
   line-height: 24px;
+  width: 20%;
 }
 
 .feature__image:hover .dropdown__menu {
