@@ -607,17 +607,34 @@ p {
   background: #f5f5f5;
 }
 
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .features {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 .feature__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.feature__col {
+.features__col {
   width: 45%;
 }
 
-.feature__image-wrapper {
+.features__image-wrapper {
   width: 5rem;
   height: 5rem;
   background-color: #6e6e6e;
@@ -626,6 +643,11 @@ p {
   justify-content: center;
   align-items: center;
   margin-top: 66px;
+}
+@media screen and (max-width: 768px) {
+  .features__image-wrapper {
+    display: none;
+  }
 }
 
 .about__list {
@@ -654,21 +676,30 @@ p {
   align-items: center;
 }
 
-.feature__image {
+.features__image {
   position: relative;
 }
 
-.feature__title {
+.feature__title h2 {
   color: #000000;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  /* @include tablets {
+       max-width: rem(900px);
+   }*/
 }
 
-.feature__description {
+.feature__description p {
   color: #666666;
   font-size: 0.8888888889rem;
   font-weight: 400;
+  max-width: 18.8888888889rem;
+}
+@media screen and (max-width: 768px) {
+  .feature__description p {
+    max-width: 22.2222222222rem;
+  }
 }
 
 .feature__option-price {
@@ -696,6 +727,7 @@ p {
   min-width: 15rem;
   min-height: 15.6111111111rem;
   opacity: 0.9;
+  border-radius: 5px;
   visibility: hidden;
 }
 
@@ -732,7 +764,7 @@ p {
   width: 10%;
 }
 
-.feature__image:hover .dropdown__menu {
+.features__image:hover .dropdown__menu {
   visibility: visible;
 }
 
@@ -1342,4 +1374,24 @@ p {
     height: 100%;
     min-height: auto;
   }
+}
+
+.fullscreen {
+  background-color: #313436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fullscreen__list {
+  list-style-type: none;
+}
+
+.fullscreen__link {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4rem;
+  text-decoration: none;
 }

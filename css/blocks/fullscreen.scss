@@ -1,0 +1,22 @@
+.fullscreen {
+    background-color: #313436;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fullscreen__list {
+    list-style-type: none;
+}
+
+
+
+.fullscreen__link {
+    color: #ffffff;
+    font-size: rem(36px);
+    font-weight: 400;
+    line-height: rem(72px);
+    text-decoration: none;
+}
