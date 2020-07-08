@@ -364,6 +364,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  position: relative;
 }
 
 .container {
@@ -605,22 +606,31 @@ p {
 
 .feature {
   background: #f5f5f5;
+  position: relative;
 }
 
 .features {
   display: flex;
+  height: 100%;
   justify-content: space-between;
   align-items: center;
 }
 @media screen and (max-width: 768px) {
   .features {
-    width: 100%;
-    flex: 1;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .beats {
+    padding-top: 3.3333333333rem;
   }
 }
 
@@ -628,12 +638,12 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
-.features__col {
-  width: 45%;
-}
-
+/*.features__col {
+    height: 40%;
+}*/
 .features__image-wrapper {
   width: 5rem;
   height: 5rem;
@@ -653,6 +663,11 @@ p {
 .features__image {
   width: 80px;
   height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .features__image {
+    display: none;
+  }
 }
 
 .about__list {
@@ -701,11 +716,6 @@ p {
   font-weight: 700;
   text-transform: uppercase;
 }
-@media screen and (max-width: 768px) {
-  .feature__title h2 {
-    max-width: 22.2222222222rem;
-  }
-}
 
 .feature__description p {
   color: #666666;
@@ -715,7 +725,12 @@ p {
 }
 @media screen and (max-width: 768px) {
   .feature__description p {
-    max-width: 22.2222222222rem;
+    max-width: 36.1111111111rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .feature__description p {
+    max-width: 25rem;
   }
 }
 
@@ -730,10 +745,25 @@ p {
 
 .arrow {
   display: flex;
+  justify-content: space-between;
 }
 
 .arrow__switcher-right {
   transform: rotate(180deg);
+}
+
+.controls {
+  cursor: pointer;
+}
+
+.controls__link-left {
+  position: absolute;
+  left: 10%;
+}
+
+.controls__link-right {
+  position: absolute;
+  right: 10%;
 }
 
 .dropdown__menu {
@@ -1399,7 +1429,8 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
+  position: absolute;
+  width: 100%;
   /*display: none;*/
 }
 

@@ -1,7 +1,8 @@
 
 const hamburger  = document.querySelector(".hamburger");
+const cross = document.querySelector(".cross");
 const fullscreen = document.querySelector(".fullscreen");
-const 
-hamburger.addEventListener("click", function() {
-    hamburger.classList.add(".fullscreen");
-}
+
+hamburger.addEventListener ('click', function(){
+    fullscreen.style.display = "block";
+})
