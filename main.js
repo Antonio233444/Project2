@@ -7,3 +7,7 @@ hamburger.addEventListener('click', function(event){
     event.preventDefault();
     fullscreen.style.display = "block";
 })
+
+cross.addEventListener('click', function(event){
+    fullscreen.style.display = "none";
+} )
