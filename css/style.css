@@ -752,9 +752,12 @@ p {
   transform: rotate(180deg);
 }
 
-.controls {
-  display: flex;
+.arrow {
   cursor: pointer;
+}
+
+.left-icon {
+  transform: rotate(180deg);
 }
 
 .dropdown__menu {
