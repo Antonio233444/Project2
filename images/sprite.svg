@@ -257,11 +257,9 @@
 </symbol>
 
 <symbol id="arrow"  viewBox="0 0 15 29">
-<defs><clipPath id="d00ca"><path fill="" d="M13.994.817L2.227 11.46a3.973 3.973 0 0 0 0 5.726L13.994 27.83"/>
-</clipPath></defs><g><g><path fill="#f5f5f5" d="M13.994.817L2.227 11.46a3.973 3.973 0 0 0 0 5.726L13.994 27.83"/>
-<path fill="none" stroke="#000" stroke-miterlimit="20" stroke-width="4" d="M13.994.817L2.227 11.46a3.973 3.973 0 0 0 0 5.726L13.994 27.83" clip-path="url(&quot;#d00ca&quot;)"/>
+<defs><clipPath id="d00ca"><path fill="" d="M13.994.817L3.227 11.46a3.973 3.973 0 0 0 0 5.726L13.994 27.83"/>
+</clipPath></defs><g><g>
+<path fill="none" stroke="#000" stroke-miterlimit="20" stroke-width="4" d="M13.994.817L3.227 11.46a3.973 3.973 0 0 0 0 5.726L13.994 27.83" clip-path="url(&quot;#d00ca&quot;)"/>
 </g></g>
 </symbol>
-
-
  </svg>
