@@ -5,14 +5,10 @@
 .right-icon {
     transform: rotate(180deg);
 
-    @include tablets {
-        margin-right: 20px;
-    }
+
   
 }
 
 .left-icon {
     margin-right: 40px;
-
-    
 }

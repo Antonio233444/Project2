@@ -759,11 +759,6 @@ p {
 .right-icon {
   transform: rotate(180deg);
 }
-@media screen and (max-width: 768px) {
-  .right-icon {
-    margin-right: 20px;
-  }
-}
 
 .left-icon {
   margin-right: 40px;
