@@ -6,6 +6,7 @@
 
    html {
         height: 100%;
+    
 
         @include tablets {
             font-size: 12px; 
@@ -22,6 +23,7 @@
        -webkit-font-smoothing :antialiased;
         -moz-osx-font-smoothing :grayscale;
         height: 100%;
+        position: relative;
        }
 
 
@@ -40,6 +42,12 @@
           margin: 0;
           padding: 0;
       }
+
+      p {
+          margin: 0;
+          padding: 0;
+      }
+      
 
 
 

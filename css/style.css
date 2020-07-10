@@ -364,6 +364,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
+  position: relative;
 }
 
 .container {
@@ -377,6 +378,11 @@ body {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
   margin: 0;
   padding: 0;
 }
@@ -584,6 +590,11 @@ ul {
   padding-left: 0.7777777778rem;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 768px) {
   .description {
     display: flex;
@@ -596,6 +607,224 @@ ul {
     display: flex;
     flex-direction: column;
   }
+}
+
+.feature {
+  background: #f5f5f5;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.slider__list {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 480px) {
+  .beats {
+    padding-top: 3.3333333333rem;
+  }
+}
+
+.feature__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.slider__image--wrapper {
+  width: 5rem;
+  height: 5rem;
+  background-color: #6e6e6e;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 66px;
+}
+@media screen and (max-width: 768px) {
+  .slider__image--wrapper {
+    display: none;
+  }
+}
+
+.slider__item {
+  display: none;
+}
+
+.slider__item--active {
+  display: flex;
+}
+
+.slider__image {
+  width: 80px;
+  height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .slider__image {
+    display: none;
+  }
+}
+
+.about__list {
+  display: flex;
+  list-style-type: none;
+}
+@media screen and (max-width: 768px) {
+  .about__list {
+    justify-content: center;
+  }
+}
+
+.about__item {
+  margin-right: 5.2777777778rem;
+}
+
+.about__item h3 {
+  color: #666666;
+  font-size: 0.8888888889rem;
+  font-weight: 400;
+}
+
+.about__item p {
+  color: #000000;
+  font-size: 0.8888888889rem;
+  font-weight: 700;
+}
+
+.feature__option {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .feature__option {
+    justify-content: center;
+  }
+}
+
+.slider__image {
+  position: relative;
+}
+
+.feature__title h2 {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.feature__description p {
+  color: #666666;
+  font-size: 0.8888888889rem;
+  font-weight: 400;
+  max-width: 18.8888888889rem;
+}
+@media screen and (max-width: 768px) {
+  .feature__description p {
+    max-width: 36.1111111111rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .feature__description p {
+    max-width: 25rem;
+  }
+}
+
+.feature__option-price {
+  margin-right: 1.4444444444rem;
+  color: #0d0d0d;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.3333333333rem;
+  text-transform: uppercase;
+}
+
+.arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow__switcher-right {
+  transform: rotate(180deg);
+}
+
+.arrows {
+  cursor: pointer;
+}
+
+.right-icon {
+  transform: rotate(180deg);
+}
+
+.left-icon {
+  margin-right: 40px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0rem;
+  left: 5rem;
+  background-color: #ffffff;
+  min-width: 15rem;
+  min-height: 15.6111111111rem;
+  opacity: 0.9;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+.dropdown__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dropdown__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dropdown__image {
+  width: 15%;
+}
+
+.dropdown__title {
+  color: #000000;
+  font-size: 0.8888888889rem;
+  font-weight: 400;
+  line-height: 24px;
+  width: 30%;
+}
+
+.dropdown__desc {
+  color: #000000;
+  font-size: 0.8888888889rem;
+  font-weight: 400;
+  line-height: 24px;
+  width: 10%;
+}
+
+.slider__image:hover .dropdown {
+  visibility: visible;
 }
 
 .headphone {
@@ -1204,4 +1433,36 @@ ul {
     height: 100%;
     min-height: auto;
   }
+}
+
+.fullscreen {
+  background-color: #313436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: none;
+}
+
+.fullscreen__list {
+  list-style-type: none;
+}
+
+.fullscreen__link {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 4rem;
+  text-decoration: none;
+}
+
+.cross {
+  position: absolute;
+  top: 2.7777777778rem;
+  right: 2.7777777778rem;
+  cursor: pointer;
 }
