@@ -5,7 +5,7 @@ const fullscreen = document.querySelector(".fullscreen");
 
 hamburger.addEventListener('click', function(event){
     event.preventDefault();
-    fullscreen.style.display = "block";
+    fullscreen.style.display = "flex";
 })
 
 cross.addEventListener('click', function(event){

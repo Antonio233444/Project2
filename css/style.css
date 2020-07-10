@@ -650,9 +650,6 @@ p {
   height: 100%;
 }
 
-/*.features__col {
-    height: 40%;
-}*/
 .features__image-wrapper {
   width: 5rem;
   height: 5rem;
@@ -1441,12 +1438,6 @@ p {
   left: 0px;
   width: 100%;
   display: none;
-}
-@media screen and (max-width: 768px) {
-  .fullscreen {
-    display: flex;
-    align-items: center;
-  }
 }
 
 .fullscreen__list {

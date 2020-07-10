@@ -9,11 +9,6 @@
     left: 0px;
     width: 100%;
     display: none;
-
-    @include tablets {
-        display: flex;
-        align-items: center;
-    }
 }
 
 .fullscreen__list {
