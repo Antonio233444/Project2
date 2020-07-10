@@ -1,4 +1,4 @@
-.dropdown__menu {
+.dropdown {
     position: absolute;
     top: rem(0px);
     left: rem(90px);
@@ -44,6 +44,6 @@
     width: 10%;
 }
 
-.features__image:hover .dropdown__menu {
+.slider__image:hover .dropdown {
     visibility: visible;
 }
