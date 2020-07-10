@@ -58,8 +58,13 @@ margin-top: 66px;
 
 }
 
-.slider__item:nth-child(2) {
+.slider__item {
     display: none;
+}
+
+
+.slider__item-active {
+    display: flex;
 }
 
 .features__image {
