@@ -633,7 +633,7 @@ p {
   }
 }
 
-.slider__list {
+.slider {
   list-style-type: none;
 }
 
@@ -670,7 +670,7 @@ p {
   display: none;
 }
 
-.slider__item-active {
+.slider__item--active {
   display: flex;
 }
 
