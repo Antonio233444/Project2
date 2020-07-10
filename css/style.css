@@ -590,6 +590,11 @@ p {
   padding-left: 0.7777777778rem;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 768px) {
   .description {
     display: flex;
@@ -626,6 +631,10 @@ p {
     flex-direction: column;
     text-align: center;
   }
+}
+
+.slider__list {
+  list-style-type: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -1427,11 +1436,17 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   display: none;
+}
+@media screen and (max-width: 768px) {
+  .fullscreen {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .fullscreen__list {

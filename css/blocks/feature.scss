@@ -22,6 +22,11 @@
 
 }
 
+.slider__list {
+    list-style-type: none;
+}
+
+
 .beats {
     @include phones {
         padding-top: rem(60px);
