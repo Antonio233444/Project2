@@ -11,3 +11,15 @@ hamburger.addEventListener('click', function(event){
 cross.addEventListener('click', function(event){
     fullscreen.style.display = "none";
 } )
+
+
+
+
+$('.reviews__switcher-item').click(e => {
+
+    const $this = $(e.currentTarget);
+    const curItem = $this 
+})
+
+
+
