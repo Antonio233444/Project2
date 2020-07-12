@@ -44,11 +44,17 @@
     margin-left: rem(35px);
     margin-bottom: rem(20px);
     position: relative;
+
     
-    &::after {
+    &:after {
         content: url('images/triangle.png');
+        height: rem(9px);
+        width: rem(7px);
         position: absolute;
-        }
+        top: 10px;
+        left: 50px;
+    }
+
 }
 
 .team__title {
@@ -63,6 +69,16 @@
     color: #000000;
     font-size: rem(18px);
     font-weight: 400;
+    position: relative;
+
+    &:after {
+        content: url('images/triangle.png');
+        height: rem(9px);
+        width: rem(7px);
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
 }
 
 
