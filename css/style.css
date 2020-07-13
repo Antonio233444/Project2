@@ -673,6 +673,18 @@ p {
 .slider__item--active {
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .slider__item--active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .slider__image {
   width: 80px;
@@ -814,7 +826,7 @@ p {
 }
 
 .team__item:nth-child(4) .team__title-name {
-  margin-left: 1.6666666667rem;
+  margin-left: 0.5555555556rem;
 }
 
 .team__item-title {
@@ -823,12 +835,13 @@ p {
   position: relative;
 }
 .team__item-title:after {
-  content: url("images/triangle.png");
+  content: url("../images/triangle.png");
   height: 0.5rem;
   width: 0.3888888889rem;
   position: absolute;
-  top: 10px;
-  left: 50px;
+  top: 0px;
+  left: 137px;
+  cursor: pointer;
 }
 
 .team__title {

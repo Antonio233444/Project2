@@ -65,6 +65,20 @@ margin-top: 66px;
 
 .slider__item--active {
     display: flex;
+
+    
+    @include tablets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+    
+}
+
 }
 
 .slider__image {

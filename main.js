@@ -13,13 +13,13 @@ cross.addEventListener('click', function(event){
 } )
 
 
+const slider = $('.slider').slick({
+    prevArrow: $('.left-icon'),
+    nextArrow: $('.right-icon'),
+  });
+  
 
-
-$('.reviews__switcher-item').click(e => {
-
-    const $this = $(e.currentTarget);
-    const curItem = $this 
-})
+  
 
 
 
