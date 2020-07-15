@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>"Monster Beats"</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 </head>
 <body>
 <div class="wrapper">
@@ -181,7 +182,7 @@
                     <ul class="slider">
                         <li class="slider__item slider__item--active" >
                                 <div class="slider__col">
-                                        <img src="images/headphones2.png" alt="" class="beats__picture" width="80%">
+                                        <img src="images/headphones2.png" alt="" class="beats__picture">
                                 </div>
                                 <div class="slider__col">
                                     <div class="slider__image">
@@ -298,7 +299,7 @@
                         </li>
                         <li class="slider__item">
                                 <div class="slider__col">
-                                        <img src="images/headphones3.png" alt="" class="beats__picture" width="80%">
+                                        <img src="images/headphones3.png" alt="" class="beats__picture">
                                 </div>
                                 <div class="slider__col">
                                     <div class="slider__image">
@@ -622,6 +623,16 @@
                                 </form>
                         </div>
                  </section>
+                 <div class="modal" id="modal">
+                     <div class="modal--container">
+                         <div class="modal__content">
+                             Сообщение отправлено
+                         </div>
+                         <div class="modal__button--container">
+                             <a href="" class="button button--theme--red" id="close">Закрыть</a>
+                         </div>
+                     </div>
+                 </div>
                  <section class="section about">
                     <div class="map">
                         <img src="images/map.png" class="map__image" alt="Карта">
@@ -709,6 +720,8 @@
             </ul>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="modal.js"></script>
         <script src="slick.min.js"></script>
         <script src="main.js"></script>
     </body>

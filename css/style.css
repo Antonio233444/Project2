@@ -615,12 +615,11 @@ p {
 }
 
 .slider {
-  display: flex;
+  display: flex !important;
   height: 100%;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding-top: 100px;
 }
 @media screen and (max-width: 768px) {
   .slider {
@@ -637,6 +636,10 @@ p {
 
 .slider__list {
   list-style-type: none;
+}
+
+.slider__col {
+  width: 50%;
 }
 
 @media screen and (max-width: 480px) {
@@ -1538,6 +1541,22 @@ p {
   border-radius: 50%;
   border: none;
   cursor: pointer;
+}
+
+.modal {
+  display: none;
+}
+
+.modal--container {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal__content {
+  margin-bottom: 0.8333333333rem;
+  color: #000;
 }
 
 .about {

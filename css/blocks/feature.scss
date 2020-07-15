@@ -4,12 +4,11 @@
 }
 
 .slider {
-    display: flex;
+    display: flex !important;
     height: 100%;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
 
     @include tablets {
         display: flex;
@@ -26,6 +25,10 @@
 
 .slider__list {
     list-style-type: none;
+}
+
+.slider__col {
+    width: 50%;
 }
 
 
