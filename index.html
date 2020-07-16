@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title>"Monster Beats"</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 </head>
 <body>
 <div class="wrapper">
@@ -171,17 +172,17 @@
                  <section class="section feature">
                      <div class="container feature__container">
                         <div class="arrows">
-                            <svg class="left-icon" width="13" height="28">
-                                <use xlink:href="images/sprite.svg#arrow">
-                                </use>
-                            </svg>
+                            <div class="arrow-icon">
+                                <svg class="left-icon" width="13" height="28">
+                                    <use xlink:href="images/sprite.svg#arrow">
+                                    </use>
+                                </svg>
+                            </div>
                     </div>
                     <ul class="slider">
-                        <li class="slider__item slider__item--active" >
+                        <li class="slider__item" >
                                 <div class="slider__col">
-                                    <div class="beats">
-                                        <img src="images/headphones2.png" alt="" class="beats__picture" width="80%">
-                                    </div>
+                                        <img src="images/headphones2.png" alt="" class="beats__picture">
                                 </div>
                                 <div class="slider__col">
                                     <div class="slider__image">
@@ -298,13 +299,11 @@
                         </li>
                         <li class="slider__item">
                                 <div class="slider__col">
-                                    <div class="beats">
-                                        <img src="images/headphones3.png" alt="" class="beats__picture" width="80%">
-                                    </div>
+                                        <img src="images/headphones3.png" alt="" class="beats__picture">
                                 </div>
                                 <div class="slider__col">
                                     <div class="slider__image">
-                                        <div class="slider__image-wrapper">
+                                        <div class="slider__image--wrapper">
                                             <svg class="gear-icon" width="35" height="35">
                                                 <use xlink:href="images/sprite.svg#gear">
                                                 </use>
@@ -312,6 +311,48 @@
                                         </div>
                                         <div class="dropdown">
                                             <ul class="dropdown__list">
+                                                <li class="dropdown__item">
+                                                    <div class="dropdown__image">
+                                                        <svg class="bluetooth-icon" width="33" height="33">
+                                                            <use xlink:href="images/sprite.svg#bluetooth">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="dropdown__title">
+                                                        <h5>Bluetooth</h5>
+                                                    </div>
+                                                    <div class="dropdown__desc">
+                                                        <p>4.0</p>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item">
+                                                    <div class="dropdown__image">
+                                                        <svg class="road-icon" width="33" height="33">
+                                                            <use xlink:href="images/sprite.svg#road">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="dropdown__title">
+                                                        <h5>Дальность</h5>
+                                                    </div>
+                                                    <div class="dropdown__desc">
+                                                        <p>10м</p>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown__item">
+                                                    <div class="dropdown__image">
+                                                        <svg class="charger-icon" width="33" height="33">
+                                                            <use xlink:href="images/sprite.svg#charger">                                
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="dropdown__title">
+                                                        <h5>Зарядка</h5>
+                                                    </div>
+                                                    <div class="dropdown__desc">
+                                                        <p>2ч</p>
+                                                    </div>
+                                                </li>
                                                 <li class="dropdown__item">
                                                     <div class="dropdown__image">
                                                         <svg class="bluetooth-icon" width="33" height="33">
@@ -389,7 +430,7 @@
                                         <h2>BEATS SOLO 3. ЦВЕТ "КРАСНЫЙ ЦИТРУС"</h2>
                                     </div>
                                     <div class="feature__description">
-                                        <p> Беспроводные наушники Solo Pro помогают настроиться на творчество.Для этого предусмотрено два режима прослушивания:режим с активным шумоподавлением и Прозрачный режим. </p>
+                                        <p> Беспроводные наушники Beats Solo помогают настроиться на творчество. Для этого предусмотрено два режима прослушивания:режим с активным шумоподавлением и Прозрачный режим.</p>
                                     </div>
                                     <ul class="about__list">
                                         <li class="about__item">
@@ -413,7 +454,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                    </div>
                         </li>
                     </ul>
                         <div class="arrows">
@@ -426,6 +467,54 @@
                         </div>
                      </div>
                  </section>
+                <!--<section class="section team">
+                     <div class="container">
+                        <div class="container">
+                            <h2 class="team__title">Команда</h2>
+                            <ul class="team__list team__list-desktop">
+                                <li class="team__item">
+                                        <img src="images/team1.png" alt="Борис" class="team__item-picture">
+                                        <div class="team__item-title">
+                                            <span class="team__title-name"> Борис Фёдорович</span>
+                                        </div>
+                                        <div class="team__text">
+                                            <p class="team__text-subtitle"> Главный технолог</p>
+                                            <p class="team__text-desc">Отвечает за вкусовые качества и калорийность</p>
+                                        </div>
+                                </li>
+                                <li class="team__item">
+                                        <img src="images/team2.png" alt="Алла" class="team__item-picture">
+                                        <div class="team__item-title">
+                                            <span class="team__title-name"> Алла Иванова</span>
+                                        </div>
+                                        <div class="team__text">
+                                            <p class="team__text-subtitle">Специалист по упаковке</p>
+                                            <p class="team__text-desc">Автор запоминающегося стиля наших батончиков</p>
+                                        </div>
+                                </li>
+                                <li class="team__item">
+                                        <img src="images/team3.png" alt="Кирилл" class="team__item-picture">
+                                        <div class="team__item-title">
+                                            <span class="team__title-name"> Кирилл Матросов</span>
+                                        </div>
+                                        <div class="team__text">
+                                            <p class="team__text-subtitle"> Дизайнер</p>
+                                            <p class="team__text-desc"> Разработал дизайн наушников Beats Solo 3</p>
+                                        </div>
+                                </li>
+                                <li class="team__item">
+                                        <img src="images/team4.png" alt="Мила" class="team__item-picture"> 
+                                        <div class="team__item-title">
+                                            <span class="team__title-name"> Мила Рыжкова</span>
+                                        </div>
+                                        <div class="team__text">
+                                            <p class="team__text-subtitle"> PR,маркетинг</p>
+                                            <p class="team__text-desc">По вопросам сотрудничества и рекламы писать только Миле</p>
+                                        </div>
+                                </li>
+                            </ul>
+                         </div>
+                 </section>-->
                  <section class="section feedback"> 
                     <div class="container">
                         <h2 class="feedback__title">Отзывы</h2>
@@ -576,6 +665,16 @@
                                 </form>
                         </div>
                  </section>
+                 <div class="modal" id="modal">
+                     <div class="modal--container">
+                         <div class="modal__content">
+                             Сообщение отправлено
+                         </div>
+                         <div class="modal__button--container">
+                             <a href="" class="button button--theme--red" id="close">Закрыть</a>
+                         </div>
+                     </div>
+                 </div>
                  <section class="section about">
                     <div class="map">
                         <img src="images/map.png" class="map__image" alt="Карта">
@@ -662,6 +761,11 @@
                 </li>
             </ul>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="modal.js"></script>
+        <script src="slick.min.js"></script>
+        <script src="tabs.js"></script>
         <script src="main.js"></script>
     </body>
 </html>

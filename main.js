@@ -11,3 +11,15 @@ hamburger.addEventListener('click', function(event){
 cross.addEventListener('click', function(event){
     fullscreen.style.display = "none";
 } )
+
+
+const slider = $('.slider').slick({
+    prevArrow: $('.left-icon'),
+    nextArrow: $('.right-icon'),
+  });
+  
+
+  
+
+
+
