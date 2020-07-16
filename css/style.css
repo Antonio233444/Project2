@@ -677,12 +677,8 @@ p {
 .slider__item {
   display: flex !important;
 }
-
-.slider__item--active {
-  display: flex;
-}
 @media screen and (max-width: 768px) {
-  .slider__item--active {
+  .slider__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -694,6 +690,23 @@ p {
   }
 }
 
+/*.slider__item--active {
+    display: flex;
+
+
+    @include tablets {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+
+}
+
+}*/
 .slider__image {
   width: 80px;
   height: 80px;
