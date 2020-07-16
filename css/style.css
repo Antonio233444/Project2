@@ -642,6 +642,9 @@ p {
   width: 50%;
 }
 
+.beats__picture {
+  width: 80%;
+}
 @media screen and (max-width: 480px) {
   .beats__picture {
     padding-top: 3.3333333333rem;
@@ -801,6 +804,7 @@ p {
   display: block;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 .slick-list:focus {
   outline: none;
